@@ -17,11 +17,11 @@
 
 
 function toCelsius (inputFah) {
-  return(inputFah * 9/5) + 32;
+  return(inputFah -32) * (5/9);
 }
 
 function toFahrenheit (inputCel) {
-  return(inputCel -32) * (5/9);
+  return(inputCel * 9/5) + 32;
 }
 
 // This function should determine which conversion should
